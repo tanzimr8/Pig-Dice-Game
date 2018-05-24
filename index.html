@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pig Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Chela One' rel='stylesheet'>
+<body id="buddy">
+
+	<div class="container gameplay">
+		<h1 id="title">Who Gets the HUNDRADE first</h1>
+		<h1>Game Play:</h1>
+		<p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":<br>
+		<ul>
+			<li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+			<li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+			<li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+			<li>The first player to score 100 or more points wins.</p></li>
+		</ul>
+		
+		
+		
+		
+	</div>
+	<div class="game-panel">
+		<div class="row players-panel">
+			<div class="col-md-12 col-sm-12 players">
+				
+			<div class="player-1-panel active">
+				<h1 id="player-1">Player 1 </h1>
+				<div class="score-player-1">
+					<h1>Total Score</h1>
+					<h2 align="center" id="t-score-1">23</h2>
+				</div>
+				<div class="current-score-player-1">
+					<h1>Current Score</h1>
+					<h2 align="center" id="c-score-1">23</h2>
+				</div>
+			</div>
+				
+				
+
+				<img id="dice-image" src="dice-1.jpg">
+				
+					<div class="middle" id="mid">
+						<div class="fa" id="dice">
+						&#xf525<br>
+						</div><br>
+						<button class="button" id="roll">ROLL</button>
+						<button class="button" id="hold">HOLD</button>
+					</div>	
+				
+				
+				<div class="player-2-panel ">
+					<h1 id="player-2">Player 2 </h1>
+					<div class="score-player-2">
+						<h1>Total Score</h1>
+						<h2 align="center" id="t-score-2" >23</h2>
+					</div>
+					<div class="current-score-player-2">
+						<h1>Current Score</h1>
+						<h2 align="center" id="c-score-2">23</h2>
+					</div>
+				</div>	
+				
+			</div>
+		
+		</div>
+		
+	</div>	
+	<script src="app.js">
+		
+	</script>
+</body>
+</html>
